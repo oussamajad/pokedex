@@ -1,0 +1,10 @@
+// Override default variables before the import
+$body-bg: #000;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*>*{
+    font-family: 'Poppins', sans-serif;
+    }
